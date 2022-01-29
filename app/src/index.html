@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>House Token DAPP</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="#">
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>House Token DAPP</h1>
+
+    <hr>
+
+    <br>
+      <h1>Mint Token</h1>
+      <!-- <br><label for="starName">Star Name:</label><input type="text" id="starName"></input> -->
+      <br><label for="ProofId">Proof ID:</label><input type="text" id="proofId" placeholder = "Enter 0-9"></input><label for="TokenId">Token ID:</label><input type="text" id="tokenId" placeholder = "tokenId"></input>
+      <br><br><button id="mint" onclick="App.mint()">Mint House Token</button>
+      <br>
+      <hr>
+      <br>
+      <h1>Look up a House</h1>
+      <br><label for="House">House ID:</label><input type="text" id="houseid"></input>
+      <br><br><button onclick="App.tokenURI()">Get House URI</button>
+      <hr>
+      <br>
+      <span id="status"></span>
+      <br>
+    <script src="index.js"></script>
+  </body>
+</html>
