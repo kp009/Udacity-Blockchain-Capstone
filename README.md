@@ -110,9 +110,9 @@ truffle migrate --reset --network rinkeby
 ```
 
 
-![truffle test](images/Frontend1.png)
+![truffle test](Images/Frontend1.png)
 
-![truffle test](images/Frontend2.png)
+![truffle test](Images/Frontend2.png)
 
 # Project Resources
 
